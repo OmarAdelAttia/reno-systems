@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.header_right h3 {
+  cursor: pointer;
+}
+
+.header .MuiSvgIcon-root {
+  color: gray;
+  padding-top: 5px;
+}

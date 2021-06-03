@@ -1,0 +1,77 @@
+.container_component {
+  min-height: 100vh;
+  border: 3px solid rgb(189, 189, 189);
+  align-items: baseline;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.filter {
+  display: flex;
+  justify-content: start;
+}
+
+.edit {
+  margin-left: 5px;
+  display: flex;
+  justify-content: start;
+}
+
+.edit h3 {
+  margin-top: 15px;
+}
+
+.container_component .MuiSvgIcon-root {
+  color: rgb(189, 189, 189);
+  padding-top: 5px;
+}
+
+.container_component .search {
+  max-width: 350px;
+  border-radius: 5px;
+  border: 3px solid rgb(189, 189, 189);
+  display: flex;
+  outline: none;
+  margin-right: 10px;
+}
+
+.container_component .search .MuiSvgIcon-root {
+  margin-left: 10px;
+}
+
+.container_component .search input {
+  min-width: 280px;
+  border: none;
+}
+
+.container_component input {
+  padding: 10px;
+  min-width: 120px;
+  border-radius: 5px;
+  border: 3px solid rgb(189, 189, 189);
+}
+
+.container_component .edit .MuiSvgIcon-root {
+  color: gray;
+  background-color: rgb(221, 221, 221);
+  padding: 2px 6px;
+  border: 3px solid rgb(221, 221, 221);
+  border-radius: 10px;
+}
+
+.table thead {
+  text-align: left;
+  background-color: #fff;
+  border: none;
+}
+
+.table table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+}
+.table tbody {
+  background-color: rgb(221, 221, 221);
+}

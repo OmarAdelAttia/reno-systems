@@ -1,0 +1,24 @@
+.project {
+  width: 100%;
+}
+
+.body {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body Button {
+  color: #ffff;
+  background-color: rgb(16, 184, 38);
+}
+
+.model_form {
+  margin: 20px 0 !important;
+}
+
+.reset {
+  /* width: fit-content; */
+  /* display: inline; */
+}

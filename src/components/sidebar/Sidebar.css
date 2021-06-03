@@ -1,0 +1,51 @@
+.sidebar {
+  max-width: 300px;
+  background-color: rgb(7, 0, 100);
+  color: rgb(189, 189, 189);
+  min-height: 100vh;
+}
+
+.sidebar_logo {
+  max-width: 300px;
+}
+
+.sidebar_logo img {
+  max-width: 100%;
+}
+
+.sidebar .search {
+  max-width: 350px;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 25px;
+}
+
+.sidebar .search input {
+  border: none;
+}
+
+.sidebar h4 {
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.sidebar h3 {
+  margin-top: 10px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.sidebar .settings {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sidebar .MuiSvgIcon-root {
+  color: rgb(189, 189, 189);
+}
